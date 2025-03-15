@@ -2,17 +2,20 @@ import 'package:reviza_courses/reviza_courses.dart';
 
 //** getting all the courses */
 List<String> getAllCourses() {
-  List<String> courses = [];
+  final List<String> allCourses = [];
 
-  data.forEach((university, faculties) {
-    faculties.forEach((faculty, degrees) {
-      degrees.forEach((course, _) {
-        courses.add(course);
+  data.forEach((_, faculties) {
+    faculties.forEach((_, programs) {
+      programs.forEach((_, years) {
+        years.forEach((_, courses) {
+          allCourses.addAll(courses);
+        });
       });
     });
   });
 
-  return courses;
+  // Remove duplicates
+  return allCourses.toSet().toList();
 }
 
 //** Getting all universities */
