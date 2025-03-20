@@ -1,4 +1,10 @@
 Map<String, Map<String, Map<String, Map<String, List<String>>>>> data = {
+  "SCHOOL": {
+    "ECZ": {
+      "Senior (10-12)": {"12": [], "11": [], "10": []},
+      "Junior (8-9)": {"9": [], "8": []},
+    },
+  },
   'UNZA': {
     'MEDICINE': {
       'BACHELOR OF MEDICINE AND SURGERY': {
