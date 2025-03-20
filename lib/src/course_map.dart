@@ -1,8 +1,41 @@
 Map<String, Map<String, Map<String, Map<String, List<String>>>>> data = {
   'UNZA': {
     'MEDICINE': {
-      'BACHELOR OF MEDICINE AND SURGERY': {},
-      'BACHELOR OF HUMAN BIOLOGY': {},
+      'BACHELOR OF MEDICINE AND SURGERY': {
+        "5": [
+          "SGY 6210 - SURGERY CLERKSHIP II",
+          "PTM 6410 - FORENSIC MEDICINE & MEDICAL JURISPRUDENCE",
+          "PSY 6410 - PSYCHIATRY AND MENTAL HEALTH",
+          "MED 6210 - INTERNAL MEDICINE II",
+          "DPH 6024 - COMMUNITY MEDICINE	BACHELOR OF SCIENCE IN HUMAN BIOLOGY - 	4TH YEAR",
+        ],
+        "4": [
+          "PSY 5215 - COMMUNICATION SKILLS,PROFESS.&HEALTHCARE ",
+          "SGY 5010 - SURGERY CLERKSHIP I	",
+          "OBG 5010 - OBSTETRICS & GYNAECOLOGY I",
+          "MED 5010 - INTERNAL MEDICINE CLERKSHIP I	",
+          "PCH 5010 - PAEDIATRICS & CHILD HEALTH I	",
+        ],
+        "3": [
+          "PTM 4310 - MEDICAL MICROBIOLOGY",
+          "PTM 4210 - PATHOLOGY	",
+          "PGY 4110 - NEUROSCIENCES	",
+          "DPH 4114 - COMMUNITY BASED EDUCATION & SCIENTIFIC MTH	Sl",
+          "DME 4115 - CLINICAL METHODS & SKILLS	",
+          "PGY 4210 - PHARMACOLOGY & THERAPEUTICS",
+          "PTM 4310 - MEDICAL MICROBIOLOGY",
+          "PTM 4210 - PATHOLOGY",
+          "PGY 4110 - NEUROSCIENCES	MEDICINE AND SURGERY",
+        ],
+        "2": [
+          "DPH 3014 - COMMUNITY-BASED EDUCATION AND FIRST AID",
+          "PSY 3015 - BEHAVIORAL SCIENCES & COMMUNICATION SKILLS",
+          "PTM 3015 - IMMUNOLOGY & GENERAL MICROBIOLOGY",
+          "PGY 3419 - MEDICAL BIOCHEMISTRY AND GENETICS",
+          "PGY 3010 - BASIC & APPLIED PHYSIOLOGY",
+          "HAN 3010 - BASIC & APPLIED HUMAN ANATOMY & DEVELOPMNT",
+        ],
+      },
     },
     'BACHELOR OF ENGINEERING': {
       'AGRICULTURAL ENGINEERING': {'2': secondYearBeng, '1': firstYearNonMed},
@@ -125,7 +158,15 @@ Map<String, Map<String, Map<String, Map<String, List<String>>>>> data = {
       'ACTUARIAL SCIENCE': {},
       'BIOLOGICAL SCIENCES': {},
       'BIOLOGY': {},
-      'CHEMICAL & BIOLOGICAL SCIENCES': {},
+      'CHEMICAL & BIOLOGICAL SCIENCES': {
+        '1': [],
+        '2': [
+          "CHE 2112 - INTRODUCTORY BIOCHEMISTRY",
+          "CHE 2219 - CHEMICAL ANALYSIS",
+          "CHE 2511 - BASIC ORGANIC CHEMISTRY",
+          "CHE 2522 - FUNCTIONAL GROUP AND ARENE CHEMISTRY",
+        ],
+      },
       'CHEMISTRY': {},
       'MATHEMATICS': {},
       'MICROBIOLOGY': {},
