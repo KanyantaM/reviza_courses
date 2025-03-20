@@ -13,7 +13,6 @@ List<String> getAllCourses() {
       });
     });
   });
-
   // Remove duplicates
   return allCourses.toSet().toList();
 }
